@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+/* Component Styles */
+table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    th {
+      background-color: #f5f5f5;
+      font-weight: bold;
+      padding: 12px;
+      text-align: left;
+    }
+    td {
+      border-bottom: 1px solid #ddd;
+      padding: 12px;
+      text-align: left;
+      &:last-child {
+        text-align: center;
+        button {
+          background-color: transparent;
+          border: none;
+          color: blue;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  
+  .mat-form-field {
+    width: 100%;
+    margin-right: 16px;
+  }
+  
+  button.mat-raised-button {
+    margin-right: 16px;
+  }
+  
+  /* Edit Dialog Styles */
+  .edit-dialog {
+    h2 {
+      margin: 0 0 24px 0;
+    }
+    .mat-form-field {
+      margin: 16px 0;
+    }
+    .mat-dialog-actions {
+      display: flex;
+      justify-content: flex-end;
+    }
+    button.mat-raised-button {
+      margin-left: 16px;
+    }
+  }
+  

@@ -1,0 +1,24 @@
+{
+  "name": "vm-mongo-lib",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Rahul Ranjan <rahul.ranjan7201@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.2"
+  },
+  "homepage": "",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ]
+}
